@@ -1,0 +1,37 @@
+Enunciado do Projeto: Automação de Acesso ao Gmail
+Descrição
+Desenvolva um script em Python usando a biblioteca pyautogui para automatizar a tarefa de acessar o Gmail, fazer login e enviar um e-mail. O objetivo é demonstrar o uso de automação para realizar tarefas repetitivas na interface gráfica do usuário.
+
+Requisitos
+Abertura do Navegador: O script deve abrir o Google Chrome usando o atalho do menu iniciar do Windows.
+Acesso ao Gmail: Navegar até o Gmail no modo incógnito.
+Login: Fazer login na conta do Gmail usando um e-mail e uma senha fornecidos.
+Envio de E-mail: Redigir e enviar um e-mail para um destinatário específico.
+Funcionalidades
+O script deve abrir o navegador e acessar o Gmail.
+Deve realizar o login usando credenciais fornecidas.
+Deve enviar um e-mail para um endereço de e-mail específico.
+
+# Automação de Acesso ao Gmail com PyAutoGUI
+
+Este projeto utiliza a biblioteca `pyautogui` para automatizar o processo de abertura do Gmail, login e envio de um e-mail. É uma demonstração de como interagir com a interface gráfica do usuário (GUI) usando Python para realizar tarefas repetitivas.
+
+## Funcionalidades
+
+- Abre o navegador Google Chrome.
+- Acessa o Gmail no modo incógnito.
+- Faz login na conta do Gmail.
+- Envia um e-mail para um destinatário específico.
+
+## Requisitos
+
+- **Python 3.x**: Certifique-se de ter o Python 3 instalado em seu sistema.
+- **Biblioteca pyautogui**: Instale usando `pip install pyautogui`.
+- **Biblioteca time**: Incluída na biblioteca padrão do Python.
+
+## Como Executar
+
+1. Certifique-se de ter o Python 3.x instalado em seu sistema.
+2. Instale a biblioteca `pyautogui`:
+   ```bash
+   pip install pyautogui
